@@ -3,5 +3,5 @@ output site_type {
 }
 
 output site_name {
-    value = "volterra_azure_vnet_site.azure-site.name"
+    value = volterra_azure_vnet_site.azure-site.name
 }
