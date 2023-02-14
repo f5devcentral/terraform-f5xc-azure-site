@@ -5,6 +5,5 @@ terraform {
     volterra = {
       source = "volterraedge/volterra"
     }
-    aws = ">= 2.24"
   }
 }
