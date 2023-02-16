@@ -4,12 +4,13 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.7 |
+| <a name="requirement_volterra"></a> [volterra](#requirement\_volterra) | >=0.11.19 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_volterra"></a> [volterra](#provider\_volterra) | n/a |
+| <a name="provider_volterra"></a> [volterra](#provider\_volterra) | >=0.11.19 |
 
 ## Modules
 
@@ -27,13 +28,13 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_azureRegion"></a> [azureRegion](#input\_azureRegion) | n/a | `any` | n/a | yes |
-| <a name="input_hubVnetName"></a> [hubVnetName](#input\_hubVnetName) | n/a | `any` | n/a | yes |
-| <a name="input_instanceSuffix"></a> [instanceSuffix](#input\_instanceSuffix) | n/a | `any` | n/a | yes |
-| <a name="input_projectPrefix"></a> [projectPrefix](#input\_projectPrefix) | n/a | `any` | n/a | yes |
-| <a name="input_resourceGroup"></a> [resourceGroup](#input\_resourceGroup) | n/a | `any` | n/a | yes |
-| <a name="input_ssh_public_key"></a> [ssh\_public\_key](#input\_ssh\_public\_key) | n/a | `any` | n/a | yes |
-| <a name="input_volterraCloudCredAzure"></a> [volterraCloudCredAzure](#input\_volterraCloudCredAzure) | n/a | `any` | n/a | yes |
+| <a name="input_azureRegion"></a> [azureRegion](#input\_azureRegion) | n/a | `string` | n/a | yes |
+| <a name="input_hubVnetName"></a> [hubVnetName](#input\_hubVnetName) | n/a | `string` | n/a | yes |
+| <a name="input_instanceSuffix"></a> [instanceSuffix](#input\_instanceSuffix) | n/a | `string` | n/a | yes |
+| <a name="input_projectPrefix"></a> [projectPrefix](#input\_projectPrefix) | n/a | `string` | n/a | yes |
+| <a name="input_resourceGroup"></a> [resourceGroup](#input\_resourceGroup) | n/a | `string` | n/a | yes |
+| <a name="input_ssh_public_key"></a> [ssh\_public\_key](#input\_ssh\_public\_key) | n/a | `string` | n/a | yes |
+| <a name="input_volterraCloudCredAzure"></a> [volterraCloudCredAzure](#input\_volterraCloudCredAzure) | n/a | `string` | n/a | yes |
 
 ## Outputs
 
