@@ -1,10 +1,10 @@
-variable "projectPrefix" {
+variable "project_[refix" {
     type = string
 }
-variable "azureRegion" {
+variable "azure_region" {
     type = string
 }
-variable "resourceGroup" {
+variable "resource_group" {
     type = string
 }
 variable "hub_vnet_name" {
