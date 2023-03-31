@@ -31,7 +31,7 @@ No modules.
 | <a name="input_azure_region"></a> [azure\_region](#input\_azure\_region) | n/a | `string` | n/a | yes |
 | <a name="input_hub_vnet_name"></a> [hub\_vnet\_name](#input\_hub\_vnet\_name) | n/a | `string` | n/a | yes |
 | <a name="input_instance_suffix"></a> [instance\_suffix](#input\_instance\_suffix) | n/a | `string` | n/a | yes |
-| <a name="input_project_[refix"></a> [project\_[refix](#input\_project\_[refix) | n/a | `string` | n/a | yes |
+| <a name="input_project_prefix"></a> [project\_prefix](#input\_project\_prefix) | n/a | `string` | n/a | yes |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | n/a | `string` | n/a | yes |
 | <a name="input_ssh_public_key"></a> [ssh\_public\_key](#input\_ssh\_public\_key) | n/a | `string` | n/a | yes |
 | <a name="input_volterra_cloud_cred_azure"></a> [volterra\_cloud\_cred\_azure](#input\_volterra\_cloud\_cred\_azure) | n/a | `string` | n/a | yes |
