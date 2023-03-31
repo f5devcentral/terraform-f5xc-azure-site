@@ -1,4 +1,4 @@
-variable "project_[refix" {
+variable "project_prefix" {
     type = string
 }
 variable "azure_region" {
