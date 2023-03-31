@@ -29,12 +29,12 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_azureRegion"></a> [azureRegion](#input\_azureRegion) | n/a | `string` | n/a | yes |
-| <a name="input_hubVnetName"></a> [hubVnetName](#input\_hubVnetName) | n/a | `string` | n/a | yes |
-| <a name="input_instanceSuffix"></a> [instanceSuffix](#input\_instanceSuffix) | n/a | `string` | n/a | yes |
+| <a name="input_hub_vnet_name"></a> [hub\_vnet\_name](#input\_hub\_vnet\_name) | n/a | `string` | n/a | yes |
+| <a name="input_instance_suffix"></a> [instance\_suffix](#input\_instance\_suffix) | n/a | `string` | n/a | yes |
 | <a name="input_projectPrefix"></a> [projectPrefix](#input\_projectPrefix) | n/a | `string` | n/a | yes |
 | <a name="input_resourceGroup"></a> [resourceGroup](#input\_resourceGroup) | n/a | `string` | n/a | yes |
 | <a name="input_ssh_public_key"></a> [ssh\_public\_key](#input\_ssh\_public\_key) | n/a | `string` | n/a | yes |
-| <a name="input_volterraCloudCredAzure"></a> [volterraCloudCredAzure](#input\_volterraCloudCredAzure) | n/a | `string` | n/a | yes |
+| <a name="input_volterra_cloud_cred_azure"></a> [volterra\_cloud\_cred\_azure](#input\_volterra\_cloud\_cred\_azure) | n/a | `string` | n/a | yes |
 
 ## Outputs
 
