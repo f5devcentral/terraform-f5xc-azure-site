@@ -7,15 +7,15 @@ variable "azureRegion" {
 variable "resourceGroup" {
     type = string
 }
-variable "hubVnetName" {
+variable "hub_vnet_name" {
     type = string
 }
-variable "volterraCloudCredAzure" {
+variable "volterra_cloud_cred_azure" {
     type = string
 }
 variable "ssh_public_key" {
     type = string
 }
-variable instanceSuffix {
+variable instance_suffix {
     type = string
 }

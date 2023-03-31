@@ -1,10 +1,10 @@
 ############################ Volterra Azure VNet Sites ############################
 
 resource "volterra_azure_vnet_site" "azure-site" {
-  name           = format("%s-azure-%s", var.projectPrefix, var.instanceSuffix)
+  name           = format("%s-azure-%s", var.project_prefix, var.instance_suffix)
   namespace      = "system"
-  azure_region   = var.azureRegion
-  resource_group = "${var.resourceGroup}-site"
+  azure_region   = var.azure_region
+  resource_group = "${var.resource_group}-site"
   machine_type   = "Standard_D3_v2"
   ssh_key        = var.ssh_public_key
 
@@ -13,7 +13,7 @@ resource "volterra_azure_vnet_site" "azure-site" {
   no_worker_nodes         = true
 
   azure_cred {
-    name      = var.volterraCloudCredAzure
+    name      = var.volterra_cloud_cred_azure
     namespace = "system"
   }
 
@@ -27,7 +27,7 @@ resource "volterra_azure_vnet_site" "azure-site" {
       global_network_connections {
         sli_to_global_dr {
           global_vn {
-            name = format("%s-global-network", var.projectPrefix)
+            name = format("%s-global-network", var.project_prefix)
           }
         }
       }
@@ -116,8 +116,8 @@ resource "volterra_azure_vnet_site" "azure-site" {
 
   vnet {
     existing_vnet {
-      resource_group = var.resourceGroup
-      vnet_name      = var.hubVnetName
+      resource_group = var.resource_group
+      vnet_name      = var.hub_vnet_name
     }
   }
 
@@ -131,7 +131,7 @@ resource "volterra_cloud_site_labels" "labels" {
   name      = volterra_azure_vnet_site.azure-site.name
   site_type = "azure_vnet_site"
   labels = {
-    site-group = var.projectPrefix
+    site-group = var.project_prefix
     key1       = "value1"
     key2       = "value2"
   }
